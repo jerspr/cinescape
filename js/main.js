@@ -64,5 +64,20 @@ var obj = {
 				botonDisabled=true;
 			}
 		});
+	},
+	video_detail: function(){
+        $('#panel-detail .img-movie').click(function(e){
+            e.preventDefault();
+            var type = $(this).attr('type');
+            var url = $(this).attr('url');
+            var idYou = url.split("?v=");
+            var concatId = 'http://www.youtube.com/embed/'+idYou[1]+'?autoplay=1';
+            $('#video-detail iframe').attr('src', concatId);
+            $(".movie-panel").removeClass('active');
+            $(this).parents('.movie-panel').addClass('active');
+        });
+	},
+	selectCustom: function(){
+		$('.combobox').combobox();
 	}
 }
