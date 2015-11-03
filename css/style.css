@@ -329,3 +329,96 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 /*Anuncio Sking*/
 .cinescape-anuncio-sking{width: 970px;margin: 0 auto;position: relative;background: #ddd;margin-top: 112px;}
 .cinescape-anuncio-sking .slider-home{margin-top: 0;}
+/*Perfil*/
+.cnt-perfil-general{background: #111;}
+.cnt-perfil{margin-top: 40px;margin-bottom: 40px;}
+.cnt-perfil h1{margin-top: 0;margin-bottom: 20px;line-height: 120%;font-size: 35px;color: #fff;text-align: center;}
+.cnt-perfil .social-nota{margin-bottom: 20px;}
+.cnt-perfil .social-nota ul{text-align: center;}
+.cnt-perfil .social-nota ul li{float: inherit;display: inline-block;width: 140px;}
+.cnt-slider-video{padding-bottom: 15px;border-bottom: 1px solid #333333;margin-bottom: 15px;}
+#video-detail{margin-bottom: 15px;}
+.panel-inner{text-align: center;}
+.movie-panel{display: inline-block;margin-right: 10px;float: inherit;}
+.movie-panel a{display: block;position: relative;}
+.bg-slide{position: absolute;top: 0;background: url(../img/bg-slide.png) repeat;bottom: 0;width: 100%;}
+.bg-slide>span{text-align: center;display: block;width: 100%;font-size: 12px;color: #FFFF00;text-transform: uppercase;margin-top: 48px;}
+.bg-slide>span span{width: 20px;height: 20px;display: inline-block;vertical-align: middle;background: url(../img/icon-slide.png) no-repeat;margin-right: 5px;}
+.movie-panel:hover .bg-slide{display: none;}
+.movie-panel.active .bg-slide{display: none;}
+.info-pelicula{background: #222222;margin-bottom: 35px;}
+.info-p figure img{width: 100%;}
+.info-p{padding: 20px!important;min-height: 457px;}
+.right-end{border-left: 1px solid #111111;}
+.img-info-p{padding: 0!important;}
+.info-p h3{font-size: 20px;color: #fff;margin-top: 0;margin-bottom: 10px;}
+.info-p p{font-size: 15px;color: #fff;line-height: 180%;}
+.info-p .type-n{height: 20px;line-height: 20px;background: #FFFF00;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;text-align: center;font-size: 14px;text-transform: uppercase;display: inline-block;position: static;margin-left: 0;margin-bottom: 10px;}
+.info-fech{font-size: 15px;color: #fff;margin-bottom: 15px;}
+.type-p{font-size: 14px;color: #fff;margin-bottom: 18px;}
+.p-rang{text-transform: uppercase;font-size: 15px;color: #00D800;margin-bottom: 18px;}
+.p-rang span{color: #fff;background: #00D900;display: inline-block;vertical-align: middle;-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px;height: 20px;line-height: 20px;padding: 0 5px;margin-right: 8px;}
+.info-center p{line-height: 140%;margin-bottom: 10px;font-size: 15px;color: #fff;}
+.info-center p span{font-weight: bold;}
+.info-pais{margin-left: 5px;}
+.peliculas-relacionadas{margin-bottom: 25px;}
+.peliculas-relacionadas h2.title-seccion, .info-personajes-cnt h2.title-seccion, .list-cines-p h2.title-seccion{color: #fff;}
+.peliculas-relacionadas figure img{width: 100%;}
+.peliculas-relacionadas figure a{display: block;}
+.peliculas-relacionadas .cnt-card, .info-personajes-cnt .cnt-card{background: #222;}
+.peliculas-relacionadas .cnt-card h2{margin-top: 5px;margin-bottom: 5px;}
+.peliculas-relacionadas .cnt-card h2 a{display: block;color: #fff;font-size: 15px;}
+.info-personajes-cnt .catelera-card h2 a{color: #fff;}
+.list-cines-p{margin-bottom: 20px;}
+.cnt-tab-cines{background: #fff;}
+.cnt-tab-cines .nav-tabs{background: #eee;border-bottom: 0;}
+.cnt-tab-cines .nav-tabs>li>a{border: 0;border-right: 1px solid #fff;font-size: 15px;color: #111;margin-right: 0;border-right: 1px solid #fff;}
+.cnt-tab-cines .nav-tabs>li>a:hover{border-bottom: 0;color: #111;}
+.cnt-tab-cines .nav-tabs>li.active>a{border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border-right: 1px solid #fff;}
+.cnt-tab-cines .nav-tabs>li{margin-bottom: 0;}
+.cnt-tab-cines .tab-content{padding: 20px;}
+.anuncio img{float: right;}
+.info-tad-l h3{font-size: 15px;color: #111111;margin-bottom: 18px;margin-top: 0;text-transform: uppercase;}
+.info-tad-l p{font-size: 14px;color: #111;margin-bottom: 10px;}
+.info-tad-l p span{display: inline-block;width: 100%;vertical-align: top;margin-bottom: 5px;font-weight: bold;}
+.list-pr .combobox-container{width: 188px;}
+.info-tad-l .combobox-container{margin-bottom: 30px;}
+.info-tad-l .form-control, .info-tad-l .input-group-addon{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
+.combobox-selected .caret{display: none;}
+.combobox-container:not(.combobox-selected) .glyphicon-remove{display: none;}
+/*Especiales*/
+.cnt-especial-general{background: #000;position: relative;}
+.header-especial{position: relative;height: 180px;padding: 20px;margin-top: 110px;margin-bottom: 10px;}
+.header-especial img{position: absolute;top: 0;left: 0;width: 100%;z-index: 1;}
+.header-especial .bg-especial{position: absolute;top: 0;left:0;width: 100%;height: 180px;z-index: 2;}
+.header-especial .bg-especial img{width: 100%;}
+.header-especial h1{position: relative;z-index: 3;margin: 0;margin-bottom: 20px;font-size: 35px;color: #fff;line-height: 120%;}
+.header-especial a{position: relative;z-index: 3;width: 240px;display: block;border:2px solid #fff;text-align: center;line-height: 40px;font-size: 15px;color: #fff;line-height: 40px;}
+.anuncio-especial{width: 1600px;position: absolute;top: 0;left: 50%;margin-left: -800px;}
+.anuncio-especial img{width: 100%;}
+.content-especial{position: relative;background: #000;padding: 10px;margin-bottom: 35px;}
+.content-especial ul{list-style: none;padding-left: 0;margin-bottom: 10px;overflow: hidden;}
+.content-especial ul li{float: left;margin-left: 10px;}
+.content-especial ul li:first-child{margin-left: 0;}
+.content-especial>ul li a{padding: 0 30px;height: 40px;text-align: center;display: block;text-transform: uppercase;color: #fff;font-size: 15px;line-height: 40px;border: 2px solid #fff;}
+.content-especial>ul li a:hover{text-decoration: none;color: #000;background: #FFFF00;border: 2px solid #FFFF00;}
+.content-especial>ul li a.active{color: #000;background: #FFFF00;border: 2px solid #FFFF00;text-decoration: none;}
+.cnt-especial-general .cnt-int-personajes{background: #000;position: relative;padding-bottom: 20px;}
+.grid-especial figure a{position: relative;display: block;}
+.grid-especial figure a img{width: 100%;}
+.grid-especial h2{margin-top: 5px;margin-bottom: 0;}
+.grid-especial h2 a{font-size: 32px;color: #fff;line-height: 120%;display: block;}
+.content-especial .small-popu{margin-bottom: 15px;padding-left: 10px;}
+.content-especial .small-popu figure a{display: block;position: relative;}
+.content-especial .small-popu .type-nota{width: 44px;height: 44px;margin-top: -22px;margin-left: -22px;}
+.content-especial .small-popu .galeria-n{background: url(../img/small-galeria.png) no-repeat;}
+.content-especial .small-popu .video-n{background: url(../img/small-video.png) no-repeat;}
+.vivo-directo{padding: 0 10px;height: 50px;background: #FF0000;background: rgba(255, 0, 0, 0.8);position: absolute;left: 0;right: 0;bottom: 0;line-height: 50px;color: #fff;font-size: 15px;}
+.vivo-directo span{display: inline-block;width: 34px;height: 34px;background: url(../img/vivo-icon.png) no-repeat;vertical-align: middle;margin-right: 10px;}
+.cnt-grid-first{margin-bottom: 25px;}
+.anuncio-especial-300 img{float: right;}
+.grid-list-r{padding-right: 5px;}
+.grid-list-l{padding-left: 5px;}
+.grid-secundario figure a{display: block;position: relative;}
+.grid-secundario h2{margin-top: 5px;margin-bottom: 0;}
+.grid-secundario h2 a{display: block;line-height: 120%;font-size: 25px;color: #fff;}
