@@ -394,6 +394,7 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .header-especial .bg-especial img{width: 100%;}
 .header-especial h1{position: relative;z-index: 3;margin: 0;margin-bottom: 20px;font-size: 35px;color: #fff;line-height: 120%;}
 .header-especial a{position: relative;z-index: 3;width: 240px;display: block;border:2px solid #fff;text-align: center;line-height: 40px;font-size: 15px;color: #fff;line-height: 40px;}
+.header-especial a:hover{background: #fff;color: #000;text-decoration: none;}
 .anuncio-especial{width: 1600px;position: absolute;top: 0;left: 50%;margin-left: -800px;}
 .anuncio-especial img{width: 100%;}
 .content-especial{position: relative;background: #000;padding: 10px;margin-bottom: 35px;}
@@ -404,11 +405,12 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .content-especial>ul li a:hover{text-decoration: none;color: #000;background: #FFFF00;border: 2px solid #FFFF00;}
 .content-especial>ul li a.active{color: #000;background: #FFFF00;border: 2px solid #FFFF00;text-decoration: none;}
 .cnt-especial-general .cnt-int-personajes{background: #000;position: relative;padding-bottom: 20px;}
+.grid-especial{position: relative;}
 .grid-especial figure a{position: relative;display: block;}
 .grid-especial figure a img{width: 100%;}
 .grid-especial h2{margin-top: 5px;margin-bottom: 0;}
 .grid-especial h2 a{font-size: 32px;color: #fff;line-height: 120%;display: block;}
-.content-especial .small-popu{margin-bottom: 15px;padding-left: 10px;}
+.content-especial .small-popu{margin-bottom: 15px;padding-left: 10px;position: relative;}
 .content-especial .small-popu figure a{display: block;position: relative;}
 .content-especial .small-popu .type-nota{width: 44px;height: 44px;margin-top: -22px;margin-left: -22px;}
 .content-especial .small-popu .galeria-n{background: url(../img/small-galeria.png) no-repeat;}
@@ -419,6 +421,12 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .anuncio-especial-300 img{float: right;}
 .grid-list-r{padding-right: 5px;}
 .grid-list-l{padding-left: 5px;}
+.grid-secundario{position: relative;}
+.grid-secundario .edit-espec{right: 10px;}
 .grid-secundario figure a{display: block;position: relative;}
 .grid-secundario h2{margin-top: 5px;margin-bottom: 0;}
 .grid-secundario h2 a{display: block;line-height: 120%;font-size: 25px;color: #fff;}
+.edit-espec{position: absolute;right: 5px;top: 5px;z-index: 1;}
+.grid-list-r figure img, .grid-list-l figure img{width: 100%;}
+.content-especial .small-popu .default-tgs{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;position: absolute;left: 15px;top: 0;z-index: 2;height: 20px;line-height: 18px;width: auto;font-size: 10px!important;padding: 0 5px;}
+.left-first-content .default-tgs, .left-second-content .default-tgs{position: absolute;top: -5px;right: -5px;z-index: 2;}
