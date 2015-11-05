@@ -437,3 +437,26 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .anuncio-right{margin-bottom: 40px;}
 .banner-calificaciones{margin-bottom: 20px;}
 .banner-calificaciones img{width: 100%;}
+/*Personajes*/
+.cnt-personajes-list{margin-top: 40px;margin-bottom: 25px;}
+.cnt-personajes-list .personajes-s{margin-bottom: 0;}
+.cnt-personajes-list.cnt-card{padding: 5px 2px;}
+.cnt-personajes-list .cnt-card{background: #222;}
+.cnt-personajes-list .catelera-card h2 a{color: #fff;}
+.cnt-personajes-info{margin-bottom: 22px;}
+.cnt-personajes-info .cnt-card{padding: 35px 22px;}
+.cnt-personajes-info .social-nota{margin-bottom: 0;}
+.cnt-personajes-info .social-nota ul{text-align: center;}
+.cnt-personajes-info .social-nota ul li{float: inherit;display: inline-block;}
+.cnt-personajes-info h1{font-size: 38px;color: #000000;margin: 35px 0;text-align: center;padding: 0 22%;}
+.cnt-personajes-info .info-p-c{margin-bottom: 35px;}
+.cnt-personajes-info .info-p-c figure{float: left;width: 33.373%;margin-right: 3%;}
+.cnt-personajes-info .r-info-p{float: left;width: 63%;}
+.cnt-personajes-info .r-info-p p{line-height: 140%;color: 16px;color: #535353;}
+.p-otras-p{background: #00B22D;position: relative;}
+.top-b{position: absolute;left: 0px;top: 0;right: 0;z-index: 1}
+.top-b img{width: 100%;}
+.bottom-b{position: absolute;left: 0;bottom: 0;right: 0;z-index: 1}
+.bottom-b img{width: 100%;}
+.cnt-content-o-p{position: relative;z-index: 2}
+.cnt-content-o-p .margin-sidebar-viene{margin-bottom: 15px;}
