@@ -430,3 +430,10 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .grid-list-r figure img, .grid-list-l figure img{width: 100%;}
 .content-especial .small-popu .default-tgs{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;position: absolute;left: 15px;top: 0;z-index: 2;height: 20px;line-height: 18px;width: auto;font-size: 10px!important;padding: 0 5px;}
 .left-first-content .default-tgs, .left-second-content .default-tgs{position: absolute;top: -5px;right: -5px;z-index: 2;}
+.cnt-title-tag{margin-bottom: 30px;}
+.cnt-title-tag p{float: left;margin-right: 5px;margin-bottom: 0;font-size: 30px;color: #525252;line-height: 120%;}
+.cnt-title-tag h1{float: left;margin: 0;font-size: 32px;color: #525252;font-weight: bold;line-height: 120%;}
+.anuncio-tag{margin-bottom: 30px;}
+.anuncio-right{margin-bottom: 40px;}
+.banner-calificaciones{margin-bottom: 20px;}
+.banner-calificaciones img{width: 100%;}
