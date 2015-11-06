@@ -79,5 +79,13 @@ var obj = {
 	},
 	selectCustom: function(){
 		$('.combobox').combobox();
+	},
+	slideHome: function(){
+		$('.slide-home-items').slick({
+			dots: true,
+			infinite: true,
+			autoplay: true,
+  			autoplaySpeed: 4000
+		});
 	}
 }

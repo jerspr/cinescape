@@ -252,7 +252,7 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .personajes-s h2, .personajes-s h5{text-align: center;}
 .personajes-s h2 a{font-size: 15px;}
 .personajes-s h5{font-size: 13px;color: #666666;text-transform: capitalize;}
-.personajes-s .slick-prev, .personajes-s .slick-next{width: 36px;height: 36px;border: 0;position: absolute;top: 50%;margin-top: -18px;z-index: 99;text-indent: -9999999px;}
+.personajes-s .slick-prev, .personajes-s .slick-next{width: 36px;height: 36px;border: 0;position: absolute;top: 50%;margin-top: -18px;z-index: 99;text-indent: -9999999px;outline: 0;}
 .personajes-s .slick-prev{background: url(../img/prev-p.png) no-repeat;left: 20px;}
 .personajes-s .slick-next{background: url(../img/next-p.png) no-repeat;right: 20px;}
 /*Proximos estrenos*/
@@ -460,3 +460,17 @@ h2.title-seccion{font-size: 30px;color: #555555;text-transform: uppercase;margin
 .bottom-b img{width: 100%;}
 .cnt-content-o-p{position: relative;z-index: 2}
 .cnt-content-o-p .margin-sidebar-viene{margin-bottom: 15px;}
+/*Slide home*/
+.slide-home-items a{display: block;}
+.slide-home-items img{width: 100%;}
+.slide-home-items .slick-arrow{width: 32px;height: 32px;position: absolute;top: 50%;margin-top: -16px;z-index: 9;border:none;text-indent: -999999px;outline: 0;}
+.slide-home-items .slick-prev{left: 20px;background: url(../img/prev-h.png) no-repeat;background-position: 0 0;}
+.slide-home-items .slick-prev:hover{background-position: -32px 0;}
+.slide-home-items .slick-next{right: 20px;background: url(../img/next-h.png) no-repeat;background-position: 0 0;}
+.slide-home-items .slick-next:hover{background-position: -32px 0;}
+.slide-home-items ul.slick-dots{display: inline-block;text-align: center;margin-bottom: 0;padding-left: 0;width: 100%;position: absolute;bottom: 18px;}
+.slide-home-items ul.slick-dots li{display: inline-block;margin: 0 9px;}
+.slide-home-items ul.slick-dots li button{width: 16px;height: 16px;background: #585554;border:2px solid #fff;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;text-indent: -999999px;vertical-align: bottom;}
+.slide-home-items ul.slick-dots li button:hover{background: #000;}
+.slide-home-items ul.slick-dots li.slick-active button{background: #fff;}
+.slide-home-items ul.slick-dots li button:active, .slide-home-items ul.slick-dots li button:focus{box-shadow: 0 0 0;outline: 0;} 
