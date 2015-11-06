@@ -20,6 +20,13 @@
     <body class="home">
         <header>
             <div class="fluid-list nav-top">
+                <div class="content-search-h">
+                    <form class="searchbox">
+                        <input type="search" name="search" class="searchbox-input" onkeyup="obj.buttonUp();" required>
+                        <input type="submit" class="searchbox-submit" value="">
+                        <span class="searchbox-icon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                    </form>
+                </div>
                 <div class="tag-tree left">
                     <ul>
                         <li><a class="horror default-tgs" href="#">HORROR</a></li>
@@ -74,8 +81,37 @@
                 <section>
                     <div class="wrapper main_content">
                         <div class="fluid-list cnt-card slider-home">
-                            <div class="fluid-list">
-                                <img src="img/slider.jpg" />
+                            <div class="slider slide-home-items">
+                                <div>
+                                    <a href="#">
+                                        <img src="img/slide-home.jpg" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/slide-home.jpg" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/slide-home.jpg" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/slide-home.jpg" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/slide-home.jpg" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/slide-home.jpg" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="fluid-list cartelera-home">
@@ -770,6 +806,13 @@
         </section>        
 
         <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="js/slick.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                obj.slideHome();
+                obj.searchExpand();
+            });
+        </script>
     </body>
 </html>

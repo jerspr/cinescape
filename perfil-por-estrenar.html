@@ -20,6 +20,13 @@
     <body>
         <header>
             <div class="fluid-list nav-top">
+                <div class="content-search-h">
+                    <form class="searchbox">
+                        <input type="search" name="search" class="searchbox-input" onkeyup="obj.buttonUp();" required>
+                        <input type="submit" class="searchbox-submit" value="">
+                        <span class="searchbox-icon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                    </form>
+                </div>
                 <div class="tag-tree left">
                     <ul>
                         <li><a class="horror default-tgs" href="#">HORROR</a></li>
@@ -624,6 +631,7 @@
         <script src="js/main.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+                obj.searchExpand();
                 obj.video_detail();
                 obj.slidePersonajes();
             });
